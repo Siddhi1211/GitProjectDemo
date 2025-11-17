@@ -1,0 +1,21 @@
+console.log("Hello word");
+console.log("Addition of two numbers is: ", 5 + 10);
+var n = "John";
+console.log("My name is: ", n);
+var a = 20;
+var b = 30;
+var sum = a + b;
+console.log("Sum of a and b is: ", sum);
+var isActive = true;
+console.log("Is Active: ", isActive);
+var list = [1, 2, 3, 4, 5];
+console.log("List of numbers: ", list);
+var tuple = ["Age", 25];
+console.log("Tuple: ", tuple);
+var Color;
+(function (Color) {
+    Color[Color["Red"] = 0] = "Red";
+    Color[Color["Green"] = 1] = "Green";
+    Color[Color["Blue"] = 2] = "Blue";
+})(Color || (Color = {}));
+var c = Color.Green;
