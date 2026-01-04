@@ -71,3 +71,4 @@ array2.forEach(function(element,index){
 //foreach to add numbers 
 let sum = 0
 array2.forEach((element) => console.log(sum += element))
+
